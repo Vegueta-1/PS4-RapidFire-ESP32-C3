@@ -4,7 +4,7 @@ Introducing the PS4 DualShock Controller R2 Trigger Rapid-Fire Mod modular rapid
 ⚠️ Important Notes. Online Play at your own risk! This release is provided as is, with no warranty or guarantee of fitness for any purpose. In online environments may result in bans, account suspension, or other penalties. You are solely responsible for how you use this project.
 
 Go here to Flash it via Web https://vegueta-1.github.io/PS4-RapidFire-ESP32-C3/
-
+Video Proof of Working link https://youtube.com/shorts/JXTdw1ugmCM?feature=share
 FEATURES:
 <img width="1208" height="1179" alt="Screenshot 2026-08-08 115831" src="https://github.com/user-attachments/assets/693225fb-9a17-4045-936a-b16d5bf8fe61" />
 
