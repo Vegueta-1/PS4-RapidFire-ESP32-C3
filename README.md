@@ -87,7 +87,7 @@ Visual Diagram for ESP32 C3 Super Mini Installation.
 
 <img width="3060" height="4080" alt="Controller flex" src="https://github.com/user-attachments/assets/736b9d45-fcaa-478b-9d84-945346e0bb74" />
 
-
+Very Important remember that always connect the Ground from Esp32 C3 to the Controller Ground!
 
 What You Need:
 
