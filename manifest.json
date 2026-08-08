@@ -1,0 +1,16 @@
+{
+  "name": "PS4 Rapid Fire",
+  "version": "0.9.7",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "parts": [
+        {
+          "path": "PS4RapidFireESP32C3.ino.merged.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
