@@ -85,6 +85,11 @@ This version is highly optimized for reliability and ease of use. Feel free to s
 Visual Diagram for ESP32 C3 Super Mini Installation.
 <img width="1237" height="672" alt="Esp32 C3 Super Mini Wiring Diagram" src="https://github.com/user-attachments/assets/c1421891-f5ed-4f33-a747-b3249e1c7226" />
 
+
+<img width="1600" height="1600" alt="JDM-040" src="https://github.com/user-attachments/assets/bbd625e2-437d-4501-b2fe-a504e4acf823" />
+
+
+
 <img width="3060" height="4080" alt="Controller flex" src="https://github.com/user-attachments/assets/736b9d45-fcaa-478b-9d84-945346e0bb74" />
 
 Very Important remember that always connect the Ground from Esp32 C3 to the Controller Ground!
