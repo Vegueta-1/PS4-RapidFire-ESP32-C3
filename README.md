@@ -110,6 +110,9 @@ Visual Diagram for ESP32 C3 Super Mini Installation For JDM-040 And JDM-055 Boar
 Note it will work in other boards version I only has this two but you free to install on other boards version.
 
 <img width="1600" height="1600" alt="ESP32-C3 Super Mini Original  Wiring Diagram JDM-040 And JDM-055" src="https://github.com/user-attachments/assets/4728e055-3b8e-4a6f-ae77-174d6e3aa69d" />
+
+<img width="4080" height="3060" alt="JDM-055 Install" src="https://github.com/user-attachments/assets/4d7a4b40-a55e-4d21-98c9-643ab87a59be" />
+
 <img width="3060" height="4080" alt="Controller flex" src="https://github.com/user-attachments/assets/7ecc5c31-466f-4d02-ae9d-61bd6217e857" />
 
 
