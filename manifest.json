@@ -2,7 +2,7 @@
   "name": "PS4 Rapid Fire",
   "version": "0.9.7",
   "new_install_prompt_erase": true,
-  "builds": [
+  "builds": [ 
     {
       "chipFamily": "ESP32-C3",
       "parts": [
