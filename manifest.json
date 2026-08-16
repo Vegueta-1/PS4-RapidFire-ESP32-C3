@@ -7,7 +7,7 @@
       "chipFamily": "ESP32-C3",
       "parts": [
         {
-          "path": "ESP32-C3 PS4 Dualshock Controller RapidFire v0.9.7",
+          "path": "ESP32-C3 PS4 Dualshock Controller RapidFire v0.9.7.bin",
           "offset": 0
         }
       ]
