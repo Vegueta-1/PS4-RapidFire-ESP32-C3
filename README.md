@@ -1,16 +1,18 @@
-# PS4-RapidFire-ESP32-C3
-Introducing the PS4 DualShock Controller R2 Trigger Rapid-Fire Mod modular rapid-fire system targeting the R2 trigger on all PS4 Dual Shock controller
+PS4-RapidFire-ESP32-C3
+Introducing the PS4 DualShock Controller R2 Trigger Rapid-Fire Mod modular rapid-fire system targeting the R2 trigger on all PS4 Dual Shock controller for JDM-001/011/020/030/040/050/055.
 
 Summary of changes
 
-Resolve the issue where your battery get drained because Deep Sleep bug DEEP-SLEEP FIX (v0.9.7):
+Resolve the issue where your battery get drained because Deep Sleep bug (v0.9.7):
 
-When controller is OFF the R2 sense line can float to a "pressed" voltage. This previously blocked deep sleep and caused boot-loops on forced sleep.
+When controller is OFF the R2 sense line can float to a "pressed" voltage. This previously blocked deep sleep and caused boot-loops on forced sleep. I remove all auto deep sleep now is compatible with all Ps4 Controller Boards
 
 Fixed by:
 
-now samples the ADC This prevents an immediate wake when the line is floating at a "0V" or still stuck at the "pressed" level (controller still off), it re‑enters deep sleep to avoid a boot loop.
-Web UI Now has a proper manual deep sleep button section added. The Esp32 now will deep sleep AUTO if Controller is not detected.
+Manual sleep via push button long press hold 5s or web UI.
+
+Wake by push button press is immediate and stays awake.
+
 
 ⚠️ Important Notes. Online Play at your own risk! This release is provided as is, with no warranty or guarantee of fitness for any purpose. In online environments may result in bans, account suspension, or other penalties. You are solely responsible for how you use this project.
 
@@ -22,7 +24,8 @@ Video Proof of Working link https://youtube.com/shorts/JXTdw1ugmCM?feature=share
 
 
 FEATURES:
-<img width="1180" height="1430" alt="ESP32-C3 PS4 Dualshock Controller RapidFire v0 9 7" src="https://github.com/user-attachments/assets/3cf856cf-ba2a-49b7-a92b-a88e1f49a395" />
+<img width="1179" height="1427" alt="ESP32-C3 PS4 Dualshock Controller RapidFire v0 9 7" src="https://github.com/user-attachments/assets/ea4ff701-da37-44f2-9af8-763a23e992c4" />
+
 
 
 
@@ -109,7 +112,8 @@ This version is highly optimized for reliability and ease of use. Feel free to s
 Visual Diagram for ESP32 C3 Super Mini Installation For JDM-040 And JDM-055 Board:
 Note it will work in other boards version I only has this two but you free to install on other boards version.
 
-<img width="1600" height="1600" alt="ESP32-C3 Super Mini Original  Wiring Diagram JDM-040 And JDM-055" src="https://github.com/user-attachments/assets/4728e055-3b8e-4a6f-ae77-174d6e3aa69d" />
+<img width="1600" height="1600" alt="ESP32-C3 Super Mini Original  Wiring Diagram JDM-040 And JDM-055" src="https://github.com/user-attachments/assets/b723ff56-25c8-45fc-a298-d72ecdcf38e2" />
+
 
 <img width="4080" height="3060" alt="JDM-055 Install" src="https://github.com/user-attachments/assets/4d7a4b40-a55e-4d21-98c9-643ab87a59be" />
 This is my personal modded PS4 Controller is a different Esp32 c3 model and features that will be released on the future, but the Esp32 Super mini will fit same space.
