@@ -19,7 +19,7 @@ Wake by push button press is immediate and stays awake.
 Go here to Flash it via Web https://vegueta-1.github.io/PS4-RapidFire-ESP32-C3/
 
 
-Video Proof of Working link https://youtube.com/shorts/JXTdw1ugmCM?feature=share
+Video Proof of Working link [https://youtube.com/shorts/JXTdw1ugmCM?feature=share](https://youtu.be/49WwGr77jjM)
 
 
 
